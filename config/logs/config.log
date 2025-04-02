@@ -1,0 +1,2066 @@
+2025-03-31 17:29:32,971 - __main__ - INFO - FIRECRAWL_API_KEY: fc****00
+2025-03-31 17:29:32,982 - __main__ - INFO - GROQ_API_KEY: gs****Vn
+2025-03-31 17:29:32,982 - __main__ - INFO - GOOGLE_API_KEY: AI****Y8
+2025-03-31 17:29:32,982 - __main__ - INFO - EXAAI_API_KEY: 3a****c9
+2025-03-31 17:29:32,982 - __main__ - INFO - Configuration loaded successfully
+2025-03-31 17:30:04,435 - __main__ - INFO - FIRECRAWL_API_KEY: fc****00
+2025-03-31 17:30:04,437 - __main__ - INFO - GROQ_API_KEY: gs****Vn
+2025-03-31 17:30:04,438 - __main__ - INFO - GOOGLE_API_KEY: AI****Y8
+2025-03-31 17:30:04,438 - __main__ - INFO - EXAAI_API_KEY: 3a****c9
+2025-03-31 17:30:04,438 - __main__ - INFO - Configuration Keys loaded successfully
+2025-03-31 21:24:13,680 - config.appconfig_local - INFO - FIRECRAWL_API_KEY: fc****00
+2025-03-31 21:24:13,680 - config.appconfig_local - INFO - GROQ_API_KEY: gs****Vn
+2025-03-31 21:24:13,696 - config.appconfig_local - INFO - GOOGLE_API_KEY: AI****Y8
+2025-03-31 21:24:13,696 - config.appconfig_local - INFO - EXAAI_API_KEY: 3a****c9
+2025-03-31 21:24:13,696 - config.appconfig_local - INFO - Configuration Keys loaded successfully
+2025-04-01 08:59:19,246 - config.appconfig_local - INFO - FIRECRAWL_API_KEY: fc****00
+2025-04-01 08:59:19,247 - config.appconfig_local - INFO - GROQ_API_KEY: gs****Vn
+2025-04-01 08:59:19,247 - config.appconfig_local - INFO - GOOGLE_API_KEY: AI****Y8
+2025-04-01 08:59:19,247 - config.appconfig_local - INFO - EXAAI_API_KEY: 3a****c9
+2025-04-01 08:59:19,250 - config.appconfig_local - INFO - Configuration Keys loaded successfully
+2025-04-01 10:41:42,847 - config.appconfig_local - INFO - FIRECRAWL_API_KEY: fc****00
+2025-04-01 10:41:42,848 - config.appconfig_local - INFO - GROQ_API_KEY: gs****Vn
+2025-04-01 10:41:42,848 - config.appconfig_local - INFO - GOOGLE_API_KEY: AI****Y8
+2025-04-01 10:41:42,850 - config.appconfig_local - INFO - EXAAI_API_KEY: 3a****c9
+2025-04-01 10:41:42,851 - config.appconfig_local - INFO - Configuration Keys loaded successfully
+2025-04-01 10:55:25,812 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 10:55:25,815 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 356, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:43:33,262 - __main__ - INFO - Application starting
+2025-04-01 11:43:33,280 - __main__ - INFO - Starting application main function
+2025-04-01 11:43:33,298 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:43:33,309 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:43:33,311 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:43:33,316 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 509, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:43:33,324 - __main__ - INFO - Application shutting down
+2025-04-01 11:43:46,716 - __main__ - INFO - Application starting
+2025-04-01 11:43:46,717 - __main__ - INFO - Starting application main function
+2025-04-01 11:43:46,723 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:43:46,724 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:43:46,724 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:43:46,727 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 509, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:43:46,729 - __main__ - INFO - Application shutting down
+2025-04-01 11:44:02,536 - __main__ - INFO - Application starting
+2025-04-01 11:44:02,537 - __main__ - INFO - Starting application main function
+2025-04-01 11:44:02,544 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:44:02,545 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:44:02,548 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:44:02,550 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 509, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:44:02,554 - __main__ - INFO - Application shutting down
+2025-04-01 11:44:20,932 - __main__ - INFO - Application starting
+2025-04-01 11:44:20,932 - __main__ - INFO - Starting application main function
+2025-04-01 11:44:20,939 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:44:20,941 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:44:20,944 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:44:20,953 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 509, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:44:20,958 - __main__ - INFO - Application shutting down
+2025-04-01 11:44:33,916 - __main__ - INFO - Application starting
+2025-04-01 11:44:33,917 - __main__ - INFO - Starting application main function
+2025-04-01 11:44:33,924 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:44:33,925 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:44:33,927 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:44:33,929 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 509, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 357, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:44:33,932 - __main__ - INFO - Application shutting down
+2025-04-01 11:45:35,190 - __main__ - INFO - Application starting
+2025-04-01 11:45:35,205 - __main__ - INFO - Starting application main function
+2025-04-01 11:45:35,622 - __main__ - INFO - Application starting
+2025-04-01 11:45:35,624 - __main__ - INFO - Starting application main function
+2025-04-01 11:45:35,645 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:45:35,650 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:45:35,651 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:45:35,653 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 689, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:45:35,656 - __main__ - INFO - Application shutting down
+2025-04-01 11:45:51,916 - __main__ - INFO - Application starting
+2025-04-01 11:45:51,916 - __main__ - INFO - Starting application main function
+2025-04-01 11:45:51,933 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:45:51,937 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:45:51,939 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:45:51,940 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 689, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:45:51,950 - __main__ - INFO - Application shutting down
+2025-04-01 11:46:10,528 - __main__ - INFO - Application starting
+2025-04-01 11:46:10,533 - __main__ - INFO - Starting application main function
+2025-04-01 11:46:10,544 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:46:10,549 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:46:10,549 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:46:10,552 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 689, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:46:10,556 - __main__ - INFO - Application shutting down
+2025-04-01 11:46:13,072 - __main__ - INFO - Application starting
+2025-04-01 11:46:13,086 - __main__ - INFO - Starting application main function
+2025-04-01 11:46:13,093 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:46:13,097 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:46:13,101 - __main__ - ERROR - Error initializing model gemini-2.0-flash: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:46:13,105 - __main__ - ERROR - Model initialization failed: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 689, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2025-04-01 11:46:13,109 - __main__ - INFO - Application shutting down
+2025-04-01 11:47:16,636 - __main__ - INFO - Application starting
+2025-04-01 11:47:16,637 - __main__ - INFO - Starting application main function
+2025-04-01 11:47:16,648 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:47:16,649 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:47:16,650 - __main__ - INFO - Displaying profile collection form
+2025-04-01 11:47:16,690 - __main__ - INFO - Application shutting down
+2025-04-01 11:47:44,541 - __main__ - INFO - Application starting
+2025-04-01 11:47:44,542 - __main__ - INFO - Starting application main function
+2025-04-01 11:47:44,548 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:47:44,549 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:47:44,554 - __main__ - INFO - Displaying profile collection form
+2025-04-01 11:47:44,579 - __main__ - INFO - Application shutting down
+2025-04-01 11:48:12,705 - __main__ - INFO - Application starting
+2025-04-01 11:48:12,705 - __main__ - INFO - Starting application main function
+2025-04-01 11:48:12,711 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:48:12,711 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:48:12,713 - __main__ - ERROR - Error initializing model gemini-2.0-flash: name 'gemini' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini.Gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^
+NameError: name 'gemini' is not defined. Did you mean: 'Gemini'?
+2025-04-01 11:48:12,717 - __main__ - ERROR - Model initialization failed: name 'gemini' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 689, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main.py", line 537, in initialize_model
+    return gemini.Gemini(id="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
+           ^^^^^^
+NameError: name 'gemini' is not defined. Did you mean: 'Gemini'?
+2025-04-01 11:48:12,724 - __main__ - INFO - Application shutting down
+2025-04-01 11:48:33,108 - __main__ - INFO - Application starting
+2025-04-01 11:48:33,109 - __main__ - INFO - Starting application main function
+2025-04-01 11:48:33,115 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:48:33,116 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:48:33,116 - __main__ - INFO - Displaying profile collection form
+2025-04-01 11:48:33,137 - __main__ - INFO - Application shutting down
+2025-04-01 11:48:51,788 - __main__ - INFO - Application starting
+2025-04-01 11:48:51,790 - __main__ - INFO - Starting application main function
+2025-04-01 11:48:51,795 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:48:51,797 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:48:51,798 - __main__ - INFO - Displaying profile collection form
+2025-04-01 11:48:51,820 - __main__ - INFO - User requested plan generation
+2025-04-01 11:48:51,821 - __main__ - INFO - Creating new user profile
+2025-04-01 11:48:51,825 - __main__ - INFO - Initializing agents for plan generation
+2025-04-01 11:48:54,379 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 11:49:02,532 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-01 11:49:02,558 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 11:49:05,631 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 11:49:05,631 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 11:49:12,825 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-01 11:49:12,842 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 11:49:14,519 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 11:49:14,723 - __main__ - INFO - Application starting
+2025-04-01 11:49:14,724 - __main__ - INFO - Starting application main function
+2025-04-01 11:49:14,732 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:49:14,733 - __main__ - INFO - Initializing model: gemini-2.0-flash
+2025-04-01 11:49:14,734 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:49:14,734 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:49:14,747 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:49:14,765 - __main__ - INFO - Application shutting down
+2025-04-01 11:51:13,398 - __main__ - INFO - Application starting
+2025-04-01 11:51:13,400 - __main__ - INFO - Starting application main function
+2025-04-01 11:51:13,417 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:51:13,418 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:51:13,419 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:51:13,419 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:51:13,436 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:51:13,459 - __main__ - INFO - Application shutting down
+2025-04-01 11:51:49,032 - __main__ - INFO - Application starting
+2025-04-01 11:51:49,032 - __main__ - INFO - Starting application main function
+2025-04-01 11:51:49,042 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:51:49,042 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:51:49,042 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:51:49,048 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:51:49,110 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:51:49,153 - __main__ - INFO - Application shutting down
+2025-04-01 11:51:56,961 - __main__ - INFO - Application starting
+2025-04-01 11:51:56,963 - __main__ - INFO - Starting application main function
+2025-04-01 11:51:56,971 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:51:56,972 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:51:56,973 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:51:56,974 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:51:56,988 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:51:57,034 - __main__ - INFO - Application shutting down
+2025-04-01 11:52:02,061 - __main__ - INFO - Application starting
+2025-04-01 11:52:02,062 - __main__ - INFO - Starting application main function
+2025-04-01 11:52:02,075 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:52:02,076 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:52:02,079 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:52:02,080 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:52:02,102 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:52:02,124 - __main__ - INFO - Application shutting down
+2025-04-01 11:52:16,029 - __main__ - INFO - Application starting
+2025-04-01 11:52:16,030 - __main__ - INFO - Starting application main function
+2025-04-01 11:52:16,038 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:52:16,038 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:52:16,040 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:52:16,040 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:52:16,053 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:52:16,077 - __main__ - INFO - Application shutting down
+2025-04-01 11:53:18,870 - __main__ - INFO - Application starting
+2025-04-01 11:53:18,872 - __main__ - INFO - Starting application main function
+2025-04-01 11:53:18,884 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:53:18,887 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:53:18,888 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:53:18,890 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:53:18,911 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:53:18,948 - __main__ - INFO - Application shutting down
+2025-04-01 11:54:37,019 - __main__ - INFO - Application starting
+2025-04-01 11:54:37,019 - __main__ - INFO - Starting application main function
+2025-04-01 11:54:37,031 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:54:37,033 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:54:37,035 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:54:37,037 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:54:37,060 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:54:37,093 - __main__ - INFO - Application shutting down
+2025-04-01 11:54:59,961 - __main__ - INFO - Application starting
+2025-04-01 11:54:59,961 - __main__ - INFO - Starting application main function
+2025-04-01 11:54:59,967 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:54:59,969 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:54:59,969 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:54:59,970 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:54:59,987 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:55:00,013 - __main__ - INFO - Application shutting down
+2025-04-01 11:55:16,901 - __main__ - INFO - Application starting
+2025-04-01 11:55:16,902 - __main__ - INFO - Starting application main function
+2025-04-01 11:55:16,915 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:16,916 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:16,918 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:55:16,919 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:55:16,936 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:55:16,958 - __main__ - INFO - Application shutting down
+2025-04-01 11:55:21,666 - __main__ - INFO - Application starting
+2025-04-01 11:55:21,670 - __main__ - INFO - Starting application main function
+2025-04-01 11:55:21,681 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:21,683 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:21,685 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:55:21,686 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:55:21,722 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:55:21,750 - __main__ - INFO - Application shutting down
+2025-04-01 11:55:31,989 - __main__ - INFO - Application starting
+2025-04-01 11:55:31,989 - __main__ - INFO - Starting application main function
+2025-04-01 11:55:32,001 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:32,006 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:32,010 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:55:32,011 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:55:32,021 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:55:32,043 - __main__ - INFO - Application shutting down
+2025-04-01 11:55:36,722 - __main__ - INFO - Application starting
+2025-04-01 11:55:36,723 - __main__ - INFO - Starting application main function
+2025-04-01 11:55:36,732 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:36,733 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:36,735 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:55:36,736 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:55:36,756 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:55:36,778 - __main__ - INFO - Application shutting down
+2025-04-01 11:55:50,143 - __main__ - INFO - Application starting
+2025-04-01 11:55:50,144 - __main__ - INFO - Starting application main function
+2025-04-01 11:55:50,150 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:50,152 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:55:50,152 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:55:50,155 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:55:50,168 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:55:50,184 - __main__ - INFO - Application shutting down
+2025-04-01 11:56:13,732 - __main__ - INFO - Application starting
+2025-04-01 11:56:13,733 - __main__ - INFO - Starting application main function
+2025-04-01 11:56:13,741 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:56:13,742 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:56:13,742 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:56:13,743 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:56:13,759 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:56:13,782 - __main__ - INFO - Application shutting down
+2025-04-01 11:56:37,638 - __main__ - INFO - Application starting
+2025-04-01 11:56:37,638 - __main__ - INFO - Starting application main function
+2025-04-01 11:56:37,644 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:56:37,646 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:56:37,648 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:56:37,650 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:56:37,663 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:56:37,738 - __main__ - INFO - Application shutting down
+2025-04-01 11:56:43,505 - __main__ - INFO - Application starting
+2025-04-01 11:56:43,506 - __main__ - INFO - Starting application main function
+2025-04-01 11:56:43,516 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:56:43,517 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:56:43,519 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:56:43,520 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:56:43,589 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:56:43,618 - __main__ - INFO - Application shutting down
+2025-04-01 11:57:06,159 - __main__ - INFO - Application starting
+2025-04-01 11:57:06,167 - __main__ - INFO - Starting application main function
+2025-04-01 11:57:06,177 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:57:06,179 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:57:06,181 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:57:06,182 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:57:06,200 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:57:06,224 - __main__ - INFO - Application shutting down
+2025-04-01 11:57:54,928 - __main__ - INFO - Application starting
+2025-04-01 11:57:54,929 - __main__ - INFO - Starting application main function
+2025-04-01 11:57:54,936 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:57:54,938 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:57:54,940 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:57:54,942 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:57:54,954 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:57:54,966 - __main__ - INFO - User question received: hello, what is this user's current profile?
+2025-04-01 11:57:54,966 - __main__ - INFO - Initializing agent for response generation
+2025-04-01 11:57:56,806 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 11:58:03,311 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 11:58:03,327 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 11:58:06,434 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 11:58:06,441 - __main__ - INFO - Response added to chat history
+2025-04-01 11:58:06,457 - __main__ - INFO - Application shutting down
+2025-04-01 11:58:37,782 - __main__ - INFO - Application starting
+2025-04-01 11:58:37,782 - __main__ - INFO - Starting application main function
+2025-04-01 11:58:37,793 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:58:37,794 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:58:37,796 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:58:37,797 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:58:37,823 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:58:37,876 - __main__ - INFO - Application shutting down
+2025-04-01 11:58:46,257 - __main__ - INFO - Application starting
+2025-04-01 11:58:46,259 - __main__ - INFO - Starting application main function
+2025-04-01 11:58:46,267 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:58:46,268 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:58:46,271 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:58:46,273 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:58:46,294 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:58:46,320 - __main__ - INFO - Application shutting down
+2025-04-01 11:59:01,134 - __main__ - INFO - Application starting
+2025-04-01 11:59:01,143 - __main__ - INFO - Starting application main function
+2025-04-01 11:59:01,182 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:01,184 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:01,187 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:59:01,190 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:59:01,202 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:59:01,234 - __main__ - INFO - Application shutting down
+2025-04-01 11:59:10,074 - __main__ - INFO - Application starting
+2025-04-01 11:59:10,075 - __main__ - INFO - Starting application main function
+2025-04-01 11:59:10,081 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:10,081 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:10,081 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:59:10,081 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:59:10,098 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:59:10,118 - __main__ - INFO - Application shutting down
+2025-04-01 11:59:19,455 - __main__ - INFO - Application starting
+2025-04-01 11:59:19,455 - __main__ - INFO - Starting application main function
+2025-04-01 11:59:19,464 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:19,464 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:19,464 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:59:19,464 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:59:19,481 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:59:19,505 - __main__ - INFO - Application shutting down
+2025-04-01 11:59:32,849 - __main__ - INFO - Application starting
+2025-04-01 11:59:32,850 - __main__ - INFO - Starting application main function
+2025-04-01 11:59:32,870 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:32,879 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 11:59:32,882 - __main__ - INFO - Displaying generated plans
+2025-04-01 11:59:32,883 - __main__ - INFO - Displaying dietary plan
+2025-04-01 11:59:32,916 - __main__ - INFO - Displaying fitness plan
+2025-04-01 11:59:32,966 - __main__ - INFO - Application shutting down
+2025-04-01 12:00:00,322 - __main__ - INFO - Application starting
+2025-04-01 12:00:00,326 - __main__ - INFO - Starting application main function
+2025-04-01 12:00:00,337 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:00,338 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:00,343 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:00:00,344 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:00:00,368 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:00:00,397 - __main__ - INFO - Application shutting down
+2025-04-01 12:00:11,786 - __main__ - INFO - Application starting
+2025-04-01 12:00:11,787 - __main__ - INFO - Starting application main function
+2025-04-01 12:00:11,803 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:11,804 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:11,805 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:00:11,814 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:00:11,839 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:00:11,949 - __main__ - INFO - Application shutting down
+2025-04-01 12:00:52,578 - __main__ - INFO - Application starting
+2025-04-01 12:00:52,580 - __main__ - INFO - Starting application main function
+2025-04-01 12:00:52,594 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:52,595 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:52,596 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:00:52,598 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:00:52,623 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:00:52,660 - __main__ - INFO - Application shutting down
+2025-04-01 12:00:57,094 - __main__ - INFO - Application starting
+2025-04-01 12:00:57,095 - __main__ - INFO - Starting application main function
+2025-04-01 12:00:57,102 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:57,103 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:00:57,104 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:00:57,105 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:00:57,121 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:00:57,149 - __main__ - INFO - Application shutting down
+2025-04-01 12:01:03,432 - __main__ - INFO - Application starting
+2025-04-01 12:01:03,433 - __main__ - INFO - Starting application main function
+2025-04-01 12:01:03,439 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:03,440 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:03,441 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:01:03,444 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:01:03,463 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:01:03,486 - __main__ - INFO - Application shutting down
+2025-04-01 12:01:08,910 - __main__ - INFO - Application starting
+2025-04-01 12:01:08,912 - __main__ - INFO - Starting application main function
+2025-04-01 12:01:08,920 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:08,920 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:08,922 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:01:08,924 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:01:08,938 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:01:08,964 - __main__ - INFO - Application shutting down
+2025-04-01 12:01:43,210 - __main__ - INFO - Application starting
+2025-04-01 12:01:43,213 - __main__ - INFO - Starting application main function
+2025-04-01 12:01:43,222 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:43,222 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:43,224 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:01:43,225 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:01:43,244 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:01:43,277 - __main__ - INFO - Application shutting down
+2025-04-01 12:01:52,904 - __main__ - INFO - Application starting
+2025-04-01 12:01:52,905 - __main__ - INFO - Starting application main function
+2025-04-01 12:01:52,916 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:52,919 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:01:52,920 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:01:52,920 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:01:52,944 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:01:52,968 - __main__ - INFO - Application shutting down
+2025-04-01 12:02:02,614 - __main__ - INFO - Application starting
+2025-04-01 12:02:02,615 - __main__ - INFO - Starting application main function
+2025-04-01 12:02:02,621 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:02:02,622 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:02:02,624 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:02:02,625 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:02:02,640 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:02:02,672 - __main__ - INFO - Application shutting down
+2025-04-01 12:02:50,588 - __main__ - INFO - Application starting
+2025-04-01 12:02:50,588 - __main__ - INFO - Starting application main function
+2025-04-01 12:02:50,604 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:02:50,605 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:02:50,606 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:02:50,607 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:02:50,626 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:02:50,655 - __main__ - INFO - Application shutting down
+2025-04-01 12:02:55,184 - __main__ - INFO - Application starting
+2025-04-01 12:02:55,188 - __main__ - INFO - Starting application main function
+2025-04-01 12:02:55,201 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:02:55,203 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:02:55,205 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:02:55,206 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:02:55,226 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:02:55,273 - __main__ - INFO - Application shutting down
+2025-04-01 12:03:01,638 - __main__ - INFO - Application starting
+2025-04-01 12:03:01,639 - __main__ - INFO - Starting application main function
+2025-04-01 12:03:01,647 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:03:01,648 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:03:01,651 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:03:01,654 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:03:01,675 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:03:01,706 - __main__ - INFO - Application shutting down
+2025-04-01 12:03:06,683 - __main__ - INFO - Application starting
+2025-04-01 12:03:06,685 - __main__ - INFO - Starting application main function
+2025-04-01 12:03:06,695 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:03:06,696 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:03:06,697 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:03:06,698 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:03:06,723 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:03:06,745 - __main__ - INFO - Application shutting down
+2025-04-01 12:03:42,959 - __main__ - INFO - Application starting
+2025-04-01 12:03:43,003 - __main__ - INFO - Starting application main function
+2025-04-01 12:03:43,464 - __main__ - INFO - Application starting
+2025-04-01 12:03:43,466 - __main__ - INFO - Starting application main function
+2025-04-01 12:03:43,476 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:03:43,478 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:03:43,479 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:03:43,480 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:03:43,499 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:03:43,537 - __main__ - INFO - Application shutting down
+2025-04-01 12:04:12,043 - __main__ - INFO - Application starting
+2025-04-01 12:04:12,045 - __main__ - INFO - Starting application main function
+2025-04-01 12:04:12,077 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:04:12,081 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:04:12,082 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:04:12,082 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:04:12,154 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:04:12,197 - __main__ - INFO - Application shutting down
+2025-04-01 12:04:25,854 - __main__ - INFO - Application starting
+2025-04-01 12:04:25,856 - __main__ - INFO - Starting application main function
+2025-04-01 12:04:25,868 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:04:25,869 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:04:25,872 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:04:25,872 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:04:25,896 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:04:25,926 - __main__ - INFO - Application shutting down
+2025-04-01 12:04:38,867 - __main__ - INFO - Application starting
+2025-04-01 12:04:38,874 - __main__ - INFO - Starting application main function
+2025-04-01 12:04:38,891 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:04:38,893 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:04:38,894 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:04:38,895 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:04:38,920 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:04:38,963 - __main__ - INFO - Application shutting down
+2025-04-01 12:05:00,541 - __main__ - INFO - Application starting
+2025-04-01 12:05:00,543 - __main__ - INFO - Starting application main function
+2025-04-01 12:05:00,554 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:05:00,558 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:05:00,559 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:05:00,561 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:05:00,584 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:05:00,631 - __main__ - INFO - Application shutting down
+2025-04-01 12:05:16,834 - __main__ - INFO - Application starting
+2025-04-01 12:05:16,837 - __main__ - INFO - Starting application main function
+2025-04-01 12:05:16,850 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:05:16,851 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:05:16,852 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:05:16,853 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:05:16,883 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:05:16,903 - __main__ - INFO - Application shutting down
+2025-04-01 12:05:37,397 - __main__ - INFO - Application starting
+2025-04-01 12:05:37,397 - __main__ - INFO - Starting application main function
+2025-04-01 12:05:37,413 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:05:37,413 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:05:37,413 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:05:37,416 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:05:37,432 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:05:37,451 - __main__ - INFO - Application shutting down
+2025-04-01 12:06:24,058 - __main__ - INFO - Application starting
+2025-04-01 12:06:24,058 - __main__ - INFO - Starting application main function
+2025-04-01 12:06:24,075 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:06:24,082 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:06:24,083 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:06:24,084 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:06:24,103 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:06:24,138 - __main__ - INFO - Application shutting down
+2025-04-01 12:07:16,443 - __main__ - INFO - Application starting
+2025-04-01 12:07:16,552 - __main__ - INFO - Starting application main function
+2025-04-01 12:07:16,562 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:07:16,563 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:07:16,564 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:07:16,567 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:07:16,590 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:07:16,635 - __main__ - INFO - Application shutting down
+2025-04-01 12:07:48,767 - __main__ - INFO - Application starting
+2025-04-01 12:07:48,889 - __main__ - INFO - Starting application main function
+2025-04-01 12:07:49,310 - __main__ - INFO - Application starting
+2025-04-01 12:07:49,312 - __main__ - INFO - Starting application main function
+2025-04-01 12:07:49,325 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:07:49,326 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:07:49,327 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:07:49,328 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:07:49,350 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:07:49,382 - __main__ - INFO - Application shutting down
+2025-04-01 12:08:28,741 - __main__ - INFO - Application starting
+2025-04-01 12:08:28,742 - __main__ - INFO - Starting application main function
+2025-04-01 12:08:28,751 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:08:28,753 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:08:28,758 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:08:28,760 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:08:28,776 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:08:28,806 - __main__ - INFO - Application shutting down
+2025-04-01 12:08:52,855 - __main__ - INFO - Application starting
+2025-04-01 12:08:52,856 - __main__ - INFO - Starting application main function
+2025-04-01 12:08:52,881 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:08:52,882 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:08:52,886 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:08:52,888 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:08:52,908 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:08:52,989 - __main__ - INFO - Application shutting down
+2025-04-01 12:10:59,982 - __main__ - INFO - Application starting
+2025-04-01 12:10:59,984 - __main__ - INFO - Starting application main function
+2025-04-01 12:10:59,996 - __main__ - INFO - User requested new profile creation
+2025-04-01 12:11:00,261 - __main__ - INFO - Application starting
+2025-04-01 12:11:00,262 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:00,269 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:00,270 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:00,272 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:00,300 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:12,621 - __main__ - INFO - Application starting
+2025-04-01 12:11:12,624 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:12,631 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:12,632 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:12,633 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:12,650 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:16,526 - __main__ - INFO - Application starting
+2025-04-01 12:11:16,528 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:16,534 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:16,536 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:16,538 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:16,557 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:26,884 - __main__ - INFO - Application starting
+2025-04-01 12:11:26,886 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:26,894 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:26,895 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:26,896 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:26,916 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:30,794 - __main__ - INFO - Application starting
+2025-04-01 12:11:30,795 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:30,801 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:30,801 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:30,803 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:30,825 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:36,545 - __main__ - INFO - Application starting
+2025-04-01 12:11:36,552 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:36,555 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:36,555 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:36,560 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:36,579 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:44,148 - __main__ - INFO - Application starting
+2025-04-01 12:11:44,149 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:44,155 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:44,156 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:44,157 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:44,174 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:48,101 - __main__ - INFO - Application starting
+2025-04-01 12:11:48,102 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:48,107 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:48,109 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:48,110 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:48,125 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:52,757 - __main__ - INFO - Application starting
+2025-04-01 12:11:52,758 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:52,763 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:52,764 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:52,765 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:52,782 - __main__ - INFO - Application shutting down
+2025-04-01 12:11:54,178 - __main__ - INFO - Application starting
+2025-04-01 12:11:54,179 - __main__ - INFO - Starting application main function
+2025-04-01 12:11:54,186 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:54,187 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:11:54,188 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:11:54,207 - __main__ - INFO - Application shutting down
+2025-04-01 12:12:04,866 - __main__ - INFO - Application starting
+2025-04-01 12:12:04,867 - __main__ - INFO - Starting application main function
+2025-04-01 12:12:04,872 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:12:04,873 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:12:04,874 - __main__ - INFO - Displaying profile collection form
+2025-04-01 12:12:04,891 - __main__ - INFO - User requested plan generation
+2025-04-01 12:12:04,892 - __main__ - INFO - Creating new user profile
+2025-04-01 12:12:04,896 - __main__ - INFO - Initializing agents for plan generation
+2025-04-01 12:12:06,415 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 12:12:43,374 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 12:12:43,379 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 12:12:46,944 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:12:46,960 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 12:13:24,028 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 12:13:24,056 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 12:13:26,119 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:13:26,478 - __main__ - INFO - Application starting
+2025-04-01 12:13:26,480 - __main__ - INFO - Starting application main function
+2025-04-01 12:13:26,499 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:13:26,503 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:13:26,503 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:13:26,503 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:13:26,523 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:13:26,555 - __main__ - INFO - Application shutting down
+2025-04-01 12:13:49,821 - __main__ - INFO - Application starting
+2025-04-01 12:13:49,821 - __main__ - INFO - Starting application main function
+2025-04-01 12:13:49,832 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:13:49,835 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:13:49,835 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:13:49,839 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:13:49,860 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:13:49,891 - __main__ - INFO - User question received: hello
+2025-04-01 12:13:49,897 - __main__ - INFO - Initializing agent for response generation
+2025-04-01 12:13:51,568 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 12:13:54,855 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 12:13:54,870 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 12:13:56,952 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:13:56,957 - __main__ - INFO - Response added to chat history
+2025-04-01 12:13:56,968 - __main__ - INFO - Application shutting down
+2025-04-01 12:14:16,696 - __main__ - INFO - Application starting
+2025-04-01 12:14:16,696 - __main__ - INFO - Starting application main function
+2025-04-01 12:14:16,704 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:14:16,706 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:14:16,706 - __main__ - INFO - Displaying generated plans
+2025-04-01 12:14:16,706 - __main__ - INFO - Displaying dietary plan
+2025-04-01 12:14:16,724 - __main__ - INFO - Displaying fitness plan
+2025-04-01 12:14:16,742 - __main__ - INFO - User question received: summarize the recommendations for me
+2025-04-01 12:14:16,747 - __main__ - INFO - Initializing agent for response generation
+2025-04-01 12:14:18,518 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 12:14:32,906 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 12:14:32,921 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-04-01 12:14:34,953 - httpx - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:14:34,958 - __main__ - INFO - Response added to chat history
+2025-04-01 12:14:34,972 - __main__ - INFO - Application shutting down
+2025-04-01 12:35:39,950 - INFO - FIRECRAWL_API_KEY: fc****00
+2025-04-01 12:35:39,952 - INFO - GROQ_API_KEY: gs****Vn
+2025-04-01 12:35:39,952 - INFO - GOOGLE_API_KEY: AI****Y8
+2025-04-01 12:35:39,952 - INFO - EXAAI_API_KEY: 3a****c9
+2025-04-01 12:35:39,954 - INFO - Configuration Keys loaded successfully
+2025-04-01 12:35:41,908 - INFO - Application starting
+2025-04-01 12:35:41,908 - INFO - Starting application main function
+2025-04-01 12:35:41,921 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:35:41,923 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:35:41,924 - INFO - Displaying profile collection form
+2025-04-01 12:35:41,955 - INFO - Application shutting down
+2025-04-01 12:35:48,729 - INFO - Application starting
+2025-04-01 12:35:48,729 - INFO - Starting application main function
+2025-04-01 12:35:48,915 - INFO - Application starting
+2025-04-01 12:35:48,917 - INFO - Starting application main function
+2025-04-01 12:35:48,935 - INFO - Displaying all user profiles
+2025-04-01 12:35:48,939 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:35:48,940 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:35:48,942 - INFO - Displaying profile collection form
+2025-04-01 12:35:48,980 - INFO - Application shutting down
+2025-04-01 12:35:53,381 - INFO - Application starting
+2025-04-01 12:35:53,382 - INFO - Starting application main function
+2025-04-01 12:35:53,392 - INFO - Displaying all user profiles
+2025-04-01 12:35:53,395 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:35:53,395 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:35:53,397 - INFO - Displaying profile collection form
+2025-04-01 12:35:53,420 - INFO - User requested plan generation
+2025-04-01 12:35:53,424 - INFO - Creating new user profile
+2025-04-01 12:35:53,428 - INFO - Initializing agents for plan generation
+2025-04-01 12:35:56,583 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 12:36:20,768 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 12:36:20,776 - INFO - AFC remote call 1 is done.
+2025-04-01 12:36:26,413 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:36:26,416 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-01 12:37:07,380 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-01 12:37:07,386 - INFO - AFC remote call 1 is done.
+2025-04-01 12:37:09,426 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:37:09,688 - INFO - Application starting
+2025-04-01 12:37:09,688 - INFO - Starting application main function
+2025-04-01 12:37:09,715 - INFO - Displaying all user profiles
+2025-04-01 12:37:09,721 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:37:09,732 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:37:09,740 - INFO - Displaying dietary plan
+2025-04-01 12:37:09,763 - INFO - Displaying fitness plan
+2025-04-01 12:37:09,826 - INFO - Application shutting down
+2025-04-01 12:37:50,469 - INFO - Application starting
+2025-04-01 12:37:50,474 - INFO - Starting application main function
+2025-04-01 12:37:50,496 - INFO - Displaying all user profiles
+2025-04-01 12:37:50,748 - INFO - Application starting
+2025-04-01 12:37:50,750 - INFO - Starting application main function
+2025-04-01 12:37:50,766 - INFO - Displaying all user profiles
+2025-04-01 12:37:50,776 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:37:50,779 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:37:50,785 - INFO - Displaying dietary plan
+2025-04-01 12:37:50,883 - INFO - Displaying fitness plan
+2025-04-01 12:37:50,940 - INFO - Application shutting down
+2025-04-01 12:37:54,325 - INFO - Application starting
+2025-04-01 12:37:54,327 - INFO - Starting application main function
+2025-04-01 12:37:54,548 - INFO - Application starting
+2025-04-01 12:37:54,551 - INFO - Starting application main function
+2025-04-01 12:37:54,564 - INFO - Displaying all user profiles
+2025-04-01 12:37:54,573 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:37:54,575 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:37:54,583 - INFO - Displaying dietary plan
+2025-04-01 12:37:54,599 - INFO - Displaying fitness plan
+2025-04-01 12:37:54,630 - INFO - Application shutting down
+2025-04-01 12:38:19,080 - INFO - Application starting
+2025-04-01 12:38:19,080 - INFO - Starting application main function
+2025-04-01 12:38:19,101 - INFO - Displaying all user profiles
+2025-04-01 12:38:19,302 - INFO - Application starting
+2025-04-01 12:38:19,302 - INFO - Starting application main function
+2025-04-01 12:38:19,320 - INFO - Displaying all user profiles
+2025-04-01 12:38:19,342 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:38:19,347 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:38:19,359 - INFO - Displaying dietary plan
+2025-04-01 12:38:19,393 - INFO - Displaying fitness plan
+2025-04-01 12:38:19,446 - INFO - Application shutting down
+2025-04-01 12:38:28,536 - INFO - Application starting
+2025-04-01 12:38:28,536 - INFO - Starting application main function
+2025-04-01 12:38:28,764 - INFO - Application starting
+2025-04-01 12:38:28,769 - INFO - Starting application main function
+2025-04-01 12:38:28,785 - INFO - Displaying all user profiles
+2025-04-01 12:38:28,806 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:38:28,808 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 12:38:28,821 - INFO - Displaying dietary plan
+2025-04-01 12:38:28,853 - INFO - Displaying fitness plan
+2025-04-01 12:38:28,898 - INFO - Application shutting down
+2025-04-01 12:38:40,456 - INFO - Application starting
+2025-04-01 12:38:40,456 - INFO - Starting application main function
+2025-04-01 12:38:40,482 - INFO - Displaying all user profiles
+2025-04-01 12:38:40,503 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:38:40,503 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:38:40,503 - ERROR - Error initializing model llama-3.3-70b-versatile: Groq.__init__() got an unexpected keyword argument 'id'
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 349, in initialize_model
+    return Groq(id=GROQ_MODEL_NAME, api_key=GROQ_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Groq.__init__() got an unexpected keyword argument 'id'
+2025-04-01 12:38:40,512 - ERROR - Model initialization failed: Groq.__init__() got an unexpected keyword argument 'id'
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 586, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 349, in initialize_model
+    return Groq(id=GROQ_MODEL_NAME, api_key=GROQ_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Groq.__init__() got an unexpected keyword argument 'id'
+2025-04-01 12:38:40,519 - INFO - Application shutting down
+2025-04-01 12:39:46,289 - INFO - Application starting
+2025-04-01 12:39:46,293 - INFO - Starting application main function
+2025-04-01 12:39:46,330 - INFO - Displaying all user profiles
+2025-04-01 12:39:46,370 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:39:46,375 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:39:46,377 - ERROR - Error initializing model llama-3.3-70b-versatile: Groq.__init__() got an unexpected keyword argument 'id'
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 350, in initialize_model
+    return Groq(id=GROQ_MODEL_NAME, api_key=GROQ_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Groq.__init__() got an unexpected keyword argument 'id'
+2025-04-01 12:39:46,384 - ERROR - Model initialization failed: Groq.__init__() got an unexpected keyword argument 'id'
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 587, in main
+    model = initialize_model(st.session_state.selected_model)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 350, in initialize_model
+    return Groq(id=GROQ_MODEL_NAME, api_key=GROQ_API_KEY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Groq.__init__() got an unexpected keyword argument 'id'
+2025-04-01 12:39:46,396 - INFO - Application shutting down
+2025-04-01 12:40:14,894 - INFO - Application starting
+2025-04-01 12:40:14,895 - INFO - Starting application main function
+2025-04-01 12:40:14,905 - INFO - Displaying all user profiles
+2025-04-01 12:40:14,915 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:40:14,920 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:40:14,926 - INFO - Displaying dietary plan
+2025-04-01 12:40:14,946 - INFO - Displaying fitness plan
+2025-04-01 12:40:14,985 - INFO - Application shutting down
+2025-04-01 12:40:20,195 - INFO - Application starting
+2025-04-01 12:40:20,196 - INFO - Starting application main function
+2025-04-01 12:40:20,209 - INFO - Displaying all user profiles
+2025-04-01 12:40:20,220 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:40:20,222 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:40:20,240 - INFO - Displaying dietary plan
+2025-04-01 12:40:20,288 - INFO - Displaying fitness plan
+2025-04-01 12:40:20,395 - INFO - User question received: hello
+2025-04-01 12:40:20,643 - INFO - Application starting
+2025-04-01 12:40:20,645 - INFO - Starting application main function
+2025-04-01 12:40:20,659 - INFO - Displaying all user profiles
+2025-04-01 12:40:20,675 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:40:20,675 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:40:20,682 - INFO - Displaying dietary plan
+2025-04-01 12:40:20,703 - INFO - Displaying fitness plan
+2025-04-01 12:40:20,733 - INFO - Initializing agent for response generation
+2025-04-01 12:40:20,737 - INFO - Generating streaming response
+2025-04-01 12:40:27,266 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 12:40:30,329 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:40:49,167 - INFO - Response added to chat history
+2025-04-01 12:40:49,170 - INFO - Application shutting down
+2025-04-01 12:42:59,851 - INFO - Application starting
+2025-04-01 12:42:59,851 - INFO - Starting application main function
+2025-04-01 12:42:59,862 - INFO - Displaying all user profiles
+2025-04-01 12:42:59,871 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:42:59,871 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:42:59,877 - INFO - Displaying dietary plan
+2025-04-01 12:42:59,888 - INFO - Displaying fitness plan
+2025-04-01 12:42:59,910 - INFO - Application shutting down
+2025-04-01 12:43:20,341 - INFO - Application starting
+2025-04-01 12:43:20,341 - INFO - Starting application main function
+2025-04-01 12:43:20,355 - INFO - Displaying all user profiles
+2025-04-01 12:43:20,599 - INFO - Application starting
+2025-04-01 12:43:20,601 - INFO - Starting application main function
+2025-04-01 12:43:20,637 - INFO - Displaying all user profiles
+2025-04-01 12:43:20,668 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:43:20,670 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:43:20,691 - INFO - Displaying dietary plan
+2025-04-01 12:43:20,713 - INFO - Displaying fitness plan
+2025-04-01 12:43:20,736 - INFO - Application shutting down
+2025-04-01 12:43:38,623 - INFO - Application starting
+2025-04-01 12:43:38,623 - INFO - Starting application main function
+2025-04-01 12:43:38,811 - INFO - Application starting
+2025-04-01 12:43:38,811 - INFO - Starting application main function
+2025-04-01 12:43:38,821 - INFO - Displaying all user profiles
+2025-04-01 12:43:38,837 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:43:38,837 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:43:38,841 - INFO - Displaying dietary plan
+2025-04-01 12:43:38,857 - INFO - Displaying fitness plan
+2025-04-01 12:43:38,889 - INFO - Application shutting down
+2025-04-01 12:44:53,987 - INFO - Application starting
+2025-04-01 12:44:53,987 - INFO - Starting application main function
+2025-04-01 12:44:53,998 - INFO - Displaying all user profiles
+2025-04-01 12:44:54,008 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:44:54,008 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:44:54,019 - INFO - Displaying dietary plan
+2025-04-01 12:44:54,034 - INFO - Displaying fitness plan
+2025-04-01 12:44:54,057 - INFO - User question received: how do i implement the plans in my daily activities, I need a quick guide
+2025-04-01 12:44:54,264 - INFO - Application starting
+2025-04-01 12:44:54,294 - INFO - Starting application main function
+2025-04-01 12:44:54,312 - INFO - Displaying all user profiles
+2025-04-01 12:44:54,343 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:44:54,351 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:44:54,357 - INFO - Displaying dietary plan
+2025-04-01 12:44:54,380 - INFO - Displaying fitness plan
+2025-04-01 12:44:54,441 - INFO - Initializing agent for response generation
+2025-04-01 12:44:54,447 - INFO - Generating streaming response
+2025-04-01 12:44:58,821 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 12:45:01,481 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:45:29,322 - INFO - Response added to chat history
+2025-04-01 12:45:29,322 - INFO - Application shutting down
+2025-04-01 12:48:37,832 - INFO - Application starting
+2025-04-01 12:48:37,834 - INFO - Starting application main function
+2025-04-01 12:48:37,847 - INFO - Displaying all user profiles
+2025-04-01 12:48:37,864 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:48:37,866 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:48:37,870 - INFO - Displaying dietary plan
+2025-04-01 12:48:37,890 - INFO - Displaying fitness plan
+2025-04-01 12:48:37,943 - INFO - Application shutting down
+2025-04-01 12:49:23,099 - INFO - Application starting
+2025-04-01 12:49:23,099 - INFO - Starting application main function
+2025-04-01 12:49:23,099 - INFO - Displaying all user profiles
+2025-04-01 12:49:23,118 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:23,118 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:23,126 - INFO - Displaying dietary plan
+2025-04-01 12:49:23,142 - INFO - Displaying fitness plan
+2025-04-01 12:49:23,173 - INFO - User question received: thanks dawg
+2025-04-01 12:49:23,319 - INFO - Application starting
+2025-04-01 12:49:23,319 - INFO - Starting application main function
+2025-04-01 12:49:23,338 - INFO - Displaying all user profiles
+2025-04-01 12:49:23,349 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:23,349 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:23,349 - INFO - Displaying dietary plan
+2025-04-01 12:49:23,376 - INFO - Displaying fitness plan
+2025-04-01 12:49:23,451 - INFO - Application shutting down
+2025-04-01 12:49:46,841 - INFO - Application starting
+2025-04-01 12:49:46,844 - INFO - Starting application main function
+2025-04-01 12:49:46,854 - INFO - Displaying all user profiles
+2025-04-01 12:49:46,867 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:46,883 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:46,883 - INFO - Displaying dietary plan
+2025-04-01 12:49:46,915 - INFO - Displaying fitness plan
+2025-04-01 12:49:46,983 - INFO - User question received: thanks dawg
+2025-04-01 12:49:47,141 - INFO - Application starting
+2025-04-01 12:49:47,141 - INFO - Starting application main function
+2025-04-01 12:49:47,152 - INFO - Displaying all user profiles
+2025-04-01 12:49:47,166 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:47,168 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:49:47,173 - INFO - Displaying dietary plan
+2025-04-01 12:49:47,188 - INFO - Displaying fitness plan
+2025-04-01 12:49:47,242 - INFO - Application shutting down
+2025-04-01 12:50:21,902 - INFO - Application starting
+2025-04-01 12:50:21,904 - INFO - Starting application main function
+2025-04-01 12:50:21,928 - INFO - Displaying all user profiles
+2025-04-01 12:50:21,960 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:50:21,963 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:50:21,971 - INFO - Displaying dietary plan
+2025-04-01 12:50:21,996 - INFO - Displaying fitness plan
+2025-04-01 12:50:22,073 - INFO - User question received: thanks dawg
+2025-04-01 12:50:22,277 - INFO - Application starting
+2025-04-01 12:50:22,285 - INFO - Starting application main function
+2025-04-01 12:50:22,329 - INFO - Displaying all user profiles
+2025-04-01 12:50:22,354 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:50:22,355 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:50:22,360 - INFO - Displaying dietary plan
+2025-04-01 12:50:22,383 - INFO - Displaying fitness plan
+2025-04-01 12:50:22,463 - INFO - Application shutting down
+2025-04-01 12:50:32,919 - INFO - Application starting
+2025-04-01 12:50:32,919 - INFO - Starting application main function
+2025-04-01 12:50:32,925 - INFO - Displaying all user profiles
+2025-04-01 12:50:32,939 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:50:32,939 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:50:32,947 - INFO - Displaying dietary plan
+2025-04-01 12:50:32,963 - INFO - Displaying fitness plan
+2025-04-01 12:50:33,023 - INFO - Initializing agent for response generation
+2025-04-01 12:50:33,023 - INFO - Generating streaming response
+2025-04-01 12:50:39,330 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 12:50:42,640 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:50:49,956 - INFO - Response added to chat history
+2025-04-01 12:50:49,956 - INFO - Application shutting down
+2025-04-01 12:51:13,572 - INFO - Application starting
+2025-04-01 12:51:13,572 - INFO - Starting application main function
+2025-04-01 12:51:13,577 - INFO - User requested new profile creation
+2025-04-01 12:51:13,732 - INFO - Application starting
+2025-04-01 12:51:13,734 - INFO - Starting application main function
+2025-04-01 12:51:13,750 - INFO - Displaying all user profiles
+2025-04-01 12:51:13,775 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:51:13,779 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:51:13,779 - INFO - Displaying profile collection form
+2025-04-01 12:51:13,806 - INFO - Application shutting down
+2025-04-01 12:51:19,250 - INFO - Application starting
+2025-04-01 12:51:19,256 - INFO - Starting application main function
+2025-04-01 12:51:19,272 - INFO - Displaying all user profiles
+2025-04-01 12:51:19,298 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:51:19,298 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:51:19,298 - INFO - Displaying profile collection form
+2025-04-01 12:51:19,321 - INFO - User requested plan generation
+2025-04-01 12:51:19,321 - INFO - Creating new user profile
+2025-04-01 12:51:19,340 - INFO - Initializing agents for plan generation
+2025-04-01 12:51:23,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 12:51:25,990 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:51:29,266 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 12:51:31,525 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 12:51:31,701 - INFO - Application starting
+2025-04-01 12:51:31,701 - INFO - Starting application main function
+2025-04-01 12:51:31,715 - INFO - Displaying all user profiles
+2025-04-01 12:51:31,748 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:51:31,749 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:51:31,752 - INFO - Displaying dietary plan
+2025-04-01 12:51:31,769 - INFO - Displaying fitness plan
+2025-04-01 12:51:31,845 - INFO - Application shutting down
+2025-04-01 12:52:27,608 - INFO - Application starting
+2025-04-01 12:52:27,608 - INFO - Starting application main function
+2025-04-01 12:52:27,634 - INFO - Displaying all user profiles
+2025-04-01 12:52:27,885 - INFO - Application starting
+2025-04-01 12:52:27,886 - INFO - Starting application main function
+2025-04-01 12:52:27,896 - INFO - Displaying all user profiles
+2025-04-01 12:52:27,925 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:52:27,925 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 12:52:27,930 - INFO - Displaying dietary plan
+2025-04-01 12:52:27,943 - INFO - Displaying fitness plan
+2025-04-01 12:52:28,025 - INFO - Application shutting down
+2025-04-01 15:58:12,480 - INFO - Application starting
+2025-04-01 15:58:12,511 - INFO - Starting application main function
+2025-04-01 15:58:12,571 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:12,574 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:12,583 - INFO - Displaying profile collection form
+2025-04-01 15:58:12,625 - INFO - Application shutting down
+2025-04-01 15:58:33,638 - INFO - Application starting
+2025-04-01 15:58:33,638 - INFO - Starting application main function
+2025-04-01 15:58:33,648 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:33,649 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:33,651 - INFO - Displaying profile collection form
+2025-04-01 15:58:33,667 - INFO - Application shutting down
+2025-04-01 15:58:37,021 - INFO - Application starting
+2025-04-01 15:58:37,022 - INFO - Starting application main function
+2025-04-01 15:58:37,213 - INFO - Application starting
+2025-04-01 15:58:37,215 - INFO - Starting application main function
+2025-04-01 15:58:37,222 - INFO - Displaying all user profiles
+2025-04-01 15:58:37,253 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:37,254 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:37,255 - INFO - Displaying profile collection form
+2025-04-01 15:58:37,274 - INFO - Application shutting down
+2025-04-01 15:58:39,753 - INFO - Application starting
+2025-04-01 15:58:39,753 - INFO - Starting application main function
+2025-04-01 15:58:39,773 - INFO - Displaying all user profiles
+2025-04-01 15:58:39,915 - INFO - Application starting
+2025-04-01 15:58:39,916 - INFO - Starting application main function
+2025-04-01 15:58:39,929 - INFO - Displaying all user profiles
+2025-04-01 15:58:39,947 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:39,949 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:39,955 - INFO - Displaying dietary plan
+2025-04-01 15:58:39,977 - INFO - Displaying fitness plan
+2025-04-01 15:58:40,115 - INFO - Application shutting down
+2025-04-01 15:58:54,587 - INFO - Application starting
+2025-04-01 15:58:54,589 - INFO - Starting application main function
+2025-04-01 15:58:54,597 - INFO - Displaying all user profiles
+2025-04-01 15:58:54,612 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:54,613 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:54,618 - INFO - Displaying dietary plan
+2025-04-01 15:58:54,630 - INFO - Displaying fitness plan
+2025-04-01 15:58:54,822 - INFO - Application starting
+2025-04-01 15:58:54,823 - INFO - Starting application main function
+2025-04-01 15:58:54,831 - INFO - Displaying all user profiles
+2025-04-01 15:58:54,844 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:54,845 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:58:54,849 - INFO - Displaying dietary plan
+2025-04-01 15:58:54,862 - INFO - Displaying fitness plan
+2025-04-01 15:58:54,894 - INFO - Application shutting down
+2025-04-01 15:59:01,689 - INFO - Application starting
+2025-04-01 15:59:01,690 - INFO - Starting application main function
+2025-04-01 15:59:01,700 - INFO - Displaying all user profiles
+2025-04-01 15:59:01,715 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:59:01,716 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:59:01,721 - INFO - Displaying dietary plan
+2025-04-01 15:59:01,733 - INFO - Displaying fitness plan
+2025-04-01 15:59:01,753 - INFO - User question received: hello
+2025-04-01 15:59:01,873 - INFO - Application starting
+2025-04-01 15:59:01,950 - INFO - Starting application main function
+2025-04-01 15:59:01,968 - INFO - Displaying all user profiles
+2025-04-01 15:59:01,996 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:59:01,996 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 15:59:02,003 - INFO - Displaying dietary plan
+2025-04-01 15:59:02,020 - INFO - Displaying fitness plan
+2025-04-01 15:59:02,050 - INFO - Initializing agent for response generation
+2025-04-01 15:59:02,051 - INFO - Generating streaming response
+2025-04-01 15:59:09,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 15:59:14,146 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 15:59:30,823 - INFO - Response added to chat history
+2025-04-01 15:59:30,825 - INFO - Application shutting down
+2025-04-01 16:01:28,432 - INFO - Application starting
+2025-04-01 16:01:28,433 - INFO - Starting application main function
+2025-04-01 16:01:28,444 - INFO - Displaying all user profiles
+2025-04-01 16:01:28,469 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:01:28,476 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:01:28,490 - INFO - Displaying dietary plan
+2025-04-01 16:01:28,523 - INFO - Displaying fitness plan
+2025-04-01 16:01:28,600 - INFO - Application shutting down
+2025-04-01 16:02:21,708 - INFO - Application starting
+2025-04-01 16:02:21,709 - INFO - Starting application main function
+2025-04-01 16:02:21,720 - INFO - Displaying all user profiles
+2025-04-01 16:02:21,736 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:02:21,737 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:02:21,743 - INFO - Displaying dietary plan
+2025-04-01 16:02:21,757 - INFO - Displaying fitness plan
+2025-04-01 16:02:21,785 - INFO - User question received: hmm interesting
+2025-04-01 16:02:22,033 - INFO - Application starting
+2025-04-01 16:02:22,061 - INFO - Starting application main function
+2025-04-01 16:02:22,158 - INFO - Displaying all user profiles
+2025-04-01 16:02:22,173 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:02:22,175 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:02:22,182 - INFO - Displaying dietary plan
+2025-04-01 16:02:22,199 - INFO - Displaying fitness plan
+2025-04-01 16:02:22,234 - INFO - Initializing agent for response generation
+2025-04-01 16:02:22,236 - INFO - Generating streaming response
+2025-04-01 16:02:26,197 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 16:02:30,000 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 16:02:50,511 - INFO - Response added to chat history
+2025-04-01 16:02:50,514 - INFO - Application shutting down
+2025-04-01 16:04:19,034 - INFO - Application starting
+2025-04-01 16:04:19,036 - INFO - Starting application main function
+2025-04-01 16:04:19,048 - INFO - Displaying all user profiles
+2025-04-01 16:04:19,069 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:04:19,070 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:04:19,077 - INFO - Displaying dietary plan
+2025-04-01 16:04:19,097 - INFO - Displaying fitness plan
+2025-04-01 16:04:19,149 - INFO - Application shutting down
+2025-04-01 16:05:03,650 - INFO - Application starting
+2025-04-01 16:05:03,650 - INFO - Starting application main function
+2025-04-01 16:05:03,660 - INFO - Displaying all user profiles
+2025-04-01 16:05:03,675 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:05:03,676 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:05:03,680 - INFO - Displaying dietary plan
+2025-04-01 16:05:03,692 - INFO - Displaying fitness plan
+2025-04-01 16:05:03,727 - INFO - User question received: lets make a simple adjustment
+2025-04-01 16:05:03,959 - INFO - Application starting
+2025-04-01 16:05:03,961 - INFO - Starting application main function
+2025-04-01 16:05:03,988 - INFO - Displaying all user profiles
+2025-04-01 16:05:04,016 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:05:04,019 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:05:04,028 - INFO - Displaying dietary plan
+2025-04-01 16:05:04,048 - INFO - Displaying fitness plan
+2025-04-01 16:05:04,125 - INFO - Initializing agent for response generation
+2025-04-01 16:05:04,125 - INFO - Generating streaming response
+2025-04-01 16:05:07,660 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 16:05:11,279 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 16:05:36,311 - __main__ - INFO - Application starting
+2025-04-01 16:05:36,312 - __main__ - INFO - Starting application main function
+2025-04-01 16:05:36,332 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 16:05:36,332 - __main__ - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 16:05:36,334 - __main__ - INFO - Displaying generated plans
+2025-04-01 16:05:36,335 - __main__ - INFO - Displaying dietary plan
+2025-04-01 16:05:36,363 - __main__ - INFO - Displaying fitness plan
+2025-04-01 16:05:36,402 - __main__ - INFO - Application shutting down
+2025-04-01 16:05:51,146 - INFO - Application starting
+2025-04-01 16:05:51,146 - INFO - Starting application main function
+2025-04-01 16:05:51,161 - INFO - Displaying all user profiles
+2025-04-01 16:05:51,174 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:05:51,175 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:05:51,179 - INFO - Displaying dietary plan
+2025-04-01 16:05:51,191 - INFO - Displaying fitness plan
+2025-04-01 16:05:51,221 - INFO - Initializing agent for response generation
+2025-04-01 16:05:51,222 - INFO - Generating streaming response
+2025-04-01 16:05:54,602 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 16:05:56,458 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 16:06:38,362 - INFO - Application starting
+2025-04-01 16:06:38,363 - INFO - Starting application main function
+2025-04-01 16:06:38,375 - INFO - Displaying all user profiles
+2025-04-01 16:06:38,393 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:06:38,394 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:06:38,400 - INFO - Displaying dietary plan
+2025-04-01 16:06:38,419 - INFO - Displaying fitness plan
+2025-04-01 16:06:38,536 - INFO - Initializing agent for response generation
+2025-04-01 16:06:38,536 - INFO - Generating streaming response
+2025-04-01 16:06:42,408 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 16:06:45,296 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 16:07:14,733 - INFO - Application starting
+2025-04-01 16:07:14,738 - INFO - Starting application main function
+2025-04-01 16:07:14,759 - INFO - Displaying all user profiles
+2025-04-01 16:07:14,779 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:07:14,783 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:07:14,831 - INFO - Displaying dietary plan
+2025-04-01 16:07:14,853 - INFO - Displaying fitness plan
+2025-04-01 16:07:15,332 - INFO - Application starting
+2025-04-01 16:07:15,332 - INFO - Starting application main function
+2025-04-01 16:07:15,347 - INFO - Displaying all user profiles
+2025-04-01 16:07:15,367 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:07:15,369 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 16:07:15,376 - INFO - Displaying dietary plan
+2025-04-01 16:07:15,393 - INFO - Displaying fitness plan
+2025-04-01 16:07:15,437 - INFO - Initializing agent for response generation
+2025-04-01 16:07:15,439 - INFO - Generating streaming response
+2025-04-01 16:07:19,262 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 16:07:20,913 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 16:07:39,508 - INFO - Response added to chat history
+2025-04-01 16:07:39,514 - INFO - Application shutting down
+2025-04-01 18:21:58,734 - INFO - Application starting
+2025-04-01 18:21:58,734 - INFO - Starting application main function
+2025-04-01 18:21:58,746 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:21:58,747 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:21:58,748 - INFO - Displaying profile collection form
+2025-04-01 18:21:58,785 - INFO - Application shutting down
+2025-04-01 18:22:08,622 - INFO - Application starting
+2025-04-01 18:22:08,622 - INFO - Starting application main function
+2025-04-01 18:22:08,852 - INFO - Application starting
+2025-04-01 18:22:08,855 - INFO - Starting application main function
+2025-04-01 18:22:08,863 - INFO - Displaying all user profiles
+2025-04-01 18:22:08,884 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:08,885 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:08,886 - INFO - Displaying profile collection form
+2025-04-01 18:22:08,911 - INFO - Application shutting down
+2025-04-01 18:22:12,937 - INFO - Application starting
+2025-04-01 18:22:12,939 - INFO - Starting application main function
+2025-04-01 18:22:12,951 - INFO - Displaying all user profiles
+2025-04-01 18:22:13,117 - INFO - Application starting
+2025-04-01 18:22:13,119 - INFO - Starting application main function
+2025-04-01 18:22:13,131 - INFO - Displaying all user profiles
+2025-04-01 18:22:13,144 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:13,150 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:13,157 - INFO - Displaying dietary plan
+2025-04-01 18:22:13,176 - INFO - Displaying fitness plan
+2025-04-01 18:22:13,212 - INFO - Application shutting down
+2025-04-01 18:22:23,686 - INFO - Application starting
+2025-04-01 18:22:23,686 - INFO - Starting application main function
+2025-04-01 18:22:23,699 - INFO - Displaying all user profiles
+2025-04-01 18:22:23,712 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:23,714 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:23,720 - INFO - Displaying dietary plan
+2025-04-01 18:22:23,728 - INFO - Displaying fitness plan
+2025-04-01 18:22:23,736 - INFO - User question received: hello
+2025-04-01 18:22:23,858 - INFO - Application starting
+2025-04-01 18:22:23,858 - INFO - Starting application main function
+2025-04-01 18:22:23,873 - INFO - Displaying all user profiles
+2025-04-01 18:22:23,889 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:23,890 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:23,893 - INFO - Displaying dietary plan
+2025-04-01 18:22:23,907 - INFO - Displaying fitness plan
+2025-04-01 18:22:23,927 - INFO - Initializing agent for response generation
+2025-04-01 18:22:25,206 - INFO - NumExpr defaulting to 8 threads.
+2025-04-01 18:22:26,594 - INFO - Generating streaming response
+2025-04-01 18:22:26,594 - ERROR - Error during streaming response generation: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 482, in stream_response
+    response_stream = agent.stream(context)
+                      ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-04-01 18:22:26,594 - INFO - Assistant response added to chat history
+2025-04-01 18:22:26,743 - INFO - Application starting
+2025-04-01 18:22:26,743 - INFO - Starting application main function
+2025-04-01 18:22:26,754 - INFO - Displaying all user profiles
+2025-04-01 18:22:26,764 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:26,767 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:22:26,772 - INFO - Displaying dietary plan
+2025-04-01 18:22:26,779 - INFO - Displaying fitness plan
+2025-04-01 18:22:26,805 - INFO - Application shutting down
+2025-04-01 18:24:08,797 - INFO - Application starting
+2025-04-01 18:24:08,797 - INFO - Starting application main function
+2025-04-01 18:24:08,804 - INFO - Displaying all user profiles
+2025-04-01 18:24:08,824 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:08,824 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:08,827 - INFO - Displaying dietary plan
+2025-04-01 18:24:08,839 - INFO - Displaying fitness plan
+2025-04-01 18:24:08,895 - INFO - Application shutting down
+2025-04-01 18:24:13,426 - INFO - Application starting
+2025-04-01 18:24:13,427 - INFO - Starting application main function
+2025-04-01 18:24:13,440 - INFO - Displaying all user profiles
+2025-04-01 18:24:13,457 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:13,457 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:13,464 - INFO - Displaying dietary plan
+2025-04-01 18:24:13,478 - INFO - Displaying fitness plan
+2025-04-01 18:24:13,503 - INFO - User question received: hello
+2025-04-01 18:24:13,671 - INFO - Application starting
+2025-04-01 18:24:13,673 - INFO - Starting application main function
+2025-04-01 18:24:13,677 - INFO - Displaying all user profiles
+2025-04-01 18:24:13,711 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:13,715 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:13,718 - INFO - Displaying dietary plan
+2025-04-01 18:24:13,747 - INFO - Displaying fitness plan
+2025-04-01 18:24:13,796 - INFO - Initializing agent for response generation
+2025-04-01 18:24:13,800 - INFO - Generating response using agent.run and simulating stream
+2025-04-01 18:24:16,307 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 18:24:19,692 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-01 18:24:21,734 - INFO - Assistant response added to chat history
+2025-04-01 18:24:21,922 - INFO - Application starting
+2025-04-01 18:24:21,924 - INFO - Starting application main function
+2025-04-01 18:24:21,933 - INFO - Displaying all user profiles
+2025-04-01 18:24:21,949 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:21,949 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:21,963 - INFO - Displaying dietary plan
+2025-04-01 18:24:21,978 - INFO - Displaying fitness plan
+2025-04-01 18:24:22,026 - INFO - Application shutting down
+2025-04-01 18:24:42,636 - INFO - Application starting
+2025-04-01 18:24:42,637 - INFO - Starting application main function
+2025-04-01 18:24:42,654 - INFO - Displaying all user profiles
+2025-04-01 18:24:42,678 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:42,680 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:42,684 - INFO - Displaying dietary plan
+2025-04-01 18:24:42,707 - INFO - Displaying fitness plan
+2025-04-01 18:24:42,870 - INFO - Application shutting down
+2025-04-01 18:24:50,710 - INFO - Application starting
+2025-04-01 18:24:50,711 - INFO - Starting application main function
+2025-04-01 18:24:50,731 - INFO - Displaying all user profiles
+2025-04-01 18:24:50,769 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:50,769 - INFO - Initializing model: llama-3.3-70b-versatile
+2025-04-01 18:24:50,777 - INFO - Displaying dietary plan
+2025-04-01 18:24:50,813 - INFO - Displaying fitness plan
+2025-04-01 18:24:50,910 - INFO - Application shutting down
+2025-04-01 18:24:56,878 - INFO - Application starting
+2025-04-01 18:24:56,883 - INFO - Starting application main function
+2025-04-01 18:24:56,897 - INFO - Displaying all user profiles
+2025-04-01 18:24:56,918 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:24:56,928 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:24:56,933 - INFO - Displaying dietary plan
+2025-04-01 18:24:56,949 - INFO - Displaying fitness plan
+2025-04-01 18:24:56,999 - INFO - Application shutting down
+2025-04-01 18:25:12,899 - INFO - Application starting
+2025-04-01 18:25:12,903 - INFO - Starting application main function
+2025-04-01 18:25:12,918 - INFO - Displaying all user profiles
+2025-04-01 18:25:12,947 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:12,947 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:12,955 - INFO - Displaying dietary plan
+2025-04-01 18:25:12,978 - INFO - Displaying fitness plan
+2025-04-01 18:25:13,035 - INFO - Application shutting down
+2025-04-01 18:25:22,865 - INFO - Application starting
+2025-04-01 18:25:22,867 - INFO - Starting application main function
+2025-04-01 18:25:22,879 - INFO - Displaying all user profiles
+2025-04-01 18:25:22,896 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:22,896 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:22,911 - INFO - Displaying dietary plan
+2025-04-01 18:25:22,917 - INFO - Displaying fitness plan
+2025-04-01 18:25:22,952 - INFO - Application shutting down
+2025-04-01 18:25:28,868 - INFO - Application starting
+2025-04-01 18:25:28,869 - INFO - Starting application main function
+2025-04-01 18:25:28,889 - INFO - Displaying all user profiles
+2025-04-01 18:25:28,913 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:28,916 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:28,920 - INFO - Displaying dietary plan
+2025-04-01 18:25:28,940 - INFO - Displaying fitness plan
+2025-04-01 18:25:29,005 - INFO - Application shutting down
+2025-04-01 18:25:45,552 - INFO - Application starting
+2025-04-01 18:25:45,553 - INFO - Starting application main function
+2025-04-01 18:25:45,563 - INFO - Displaying all user profiles
+2025-04-01 18:25:45,585 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:45,587 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:45,595 - INFO - Displaying dietary plan
+2025-04-01 18:25:45,620 - INFO - Displaying fitness plan
+2025-04-01 18:25:45,668 - INFO - Application shutting down
+2025-04-01 18:25:56,789 - INFO - Application starting
+2025-04-01 18:25:56,789 - INFO - Starting application main function
+2025-04-01 18:25:56,795 - INFO - Displaying all user profiles
+2025-04-01 18:25:56,821 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:56,823 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:25:56,881 - INFO - Displaying dietary plan
+2025-04-01 18:25:56,986 - INFO - Displaying fitness plan
+2025-04-01 18:25:57,084 - INFO - Application shutting down
+2025-04-01 18:26:12,913 - INFO - Application starting
+2025-04-01 18:26:12,913 - INFO - Starting application main function
+2025-04-01 18:26:12,929 - INFO - Displaying all user profiles
+2025-04-01 18:26:13,019 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:13,019 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:13,036 - INFO - Displaying dietary plan
+2025-04-01 18:26:13,071 - INFO - Displaying fitness plan
+2025-04-01 18:26:13,121 - INFO - Application shutting down
+2025-04-01 18:26:18,477 - INFO - Application starting
+2025-04-01 18:26:18,482 - INFO - Starting application main function
+2025-04-01 18:26:18,497 - INFO - Displaying all user profiles
+2025-04-01 18:26:18,520 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:18,522 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:18,526 - INFO - Displaying dietary plan
+2025-04-01 18:26:18,545 - INFO - Displaying fitness plan
+2025-04-01 18:26:18,587 - INFO - Application shutting down
+2025-04-01 18:26:22,191 - INFO - Application starting
+2025-04-01 18:26:22,199 - INFO - Starting application main function
+2025-04-01 18:26:22,219 - INFO - Displaying all user profiles
+2025-04-01 18:26:22,439 - INFO - Application starting
+2025-04-01 18:26:22,439 - INFO - Starting application main function
+2025-04-01 18:26:22,443 - INFO - Displaying all user profiles
+2025-04-01 18:26:22,467 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:22,467 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:22,470 - INFO - Displaying dietary plan
+2025-04-01 18:26:22,488 - INFO - Displaying fitness plan
+2025-04-01 18:26:22,538 - INFO - Application shutting down
+2025-04-01 18:26:58,036 - INFO - Application starting
+2025-04-01 18:26:58,039 - INFO - Starting application main function
+2025-04-01 18:26:58,053 - INFO - Displaying all user profiles
+2025-04-01 18:26:58,073 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:58,073 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:26:58,080 - INFO - Displaying dietary plan
+2025-04-01 18:26:58,100 - INFO - Displaying fitness plan
+2025-04-01 18:26:58,161 - INFO - Application shutting down
+2025-04-01 18:27:14,413 - INFO - Application starting
+2025-04-01 18:27:14,413 - INFO - Starting application main function
+2025-04-01 18:27:14,421 - INFO - Displaying all user profiles
+2025-04-01 18:27:14,440 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:27:14,442 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:27:14,445 - INFO - Displaying dietary plan
+2025-04-01 18:27:14,455 - INFO - Displaying fitness plan
+2025-04-01 18:27:14,505 - INFO - Application shutting down
+2025-04-01 18:27:43,348 - INFO - Application starting
+2025-04-01 18:27:43,348 - INFO - Starting application main function
+2025-04-01 18:27:43,364 - INFO - Displaying all user profiles
+2025-04-01 18:27:43,393 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:27:43,393 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:27:43,405 - INFO - Displaying dietary plan
+2025-04-01 18:27:43,426 - INFO - Displaying fitness plan
+2025-04-01 18:27:43,505 - INFO - Application shutting down
+2025-04-01 18:28:22,864 - INFO - Application starting
+2025-04-01 18:28:22,864 - INFO - Starting application main function
+2025-04-01 18:28:22,878 - INFO - Displaying all user profiles
+2025-04-01 18:28:22,896 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:28:22,896 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:28:22,903 - INFO - Displaying dietary plan
+2025-04-01 18:28:22,917 - INFO - Displaying fitness plan
+2025-04-01 18:28:22,959 - INFO - Application shutting down
+2025-04-01 18:29:12,741 - INFO - Application starting
+2025-04-01 18:29:12,741 - INFO - Starting application main function
+2025-04-01 18:29:12,753 - INFO - Displaying all user profiles
+2025-04-01 18:29:12,777 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:12,778 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:12,784 - INFO - Displaying dietary plan
+2025-04-01 18:29:12,802 - INFO - Displaying fitness plan
+2025-04-01 18:29:12,857 - INFO - Application shutting down
+2025-04-01 18:29:29,886 - INFO - Application starting
+2025-04-01 18:29:29,889 - INFO - Starting application main function
+2025-04-01 18:29:29,901 - INFO - Displaying all user profiles
+2025-04-01 18:29:29,911 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:29,917 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:29,919 - INFO - Displaying dietary plan
+2025-04-01 18:29:29,936 - INFO - Displaying fitness plan
+2025-04-01 18:29:29,978 - INFO - Application shutting down
+2025-04-01 18:29:41,713 - INFO - Application starting
+2025-04-01 18:29:41,766 - INFO - Starting application main function
+2025-04-01 18:29:41,780 - INFO - Displaying all user profiles
+2025-04-01 18:29:41,802 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:41,802 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:41,813 - INFO - Displaying dietary plan
+2025-04-01 18:29:41,835 - INFO - Displaying fitness plan
+2025-04-01 18:29:41,866 - INFO - Application shutting down
+2025-04-01 18:29:53,635 - INFO - Application starting
+2025-04-01 18:29:53,635 - INFO - Starting application main function
+2025-04-01 18:29:53,651 - INFO - Displaying all user profiles
+2025-04-01 18:29:53,885 - INFO - Application starting
+2025-04-01 18:29:53,920 - INFO - Starting application main function
+2025-04-01 18:29:53,946 - INFO - Displaying all user profiles
+2025-04-01 18:29:53,966 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:53,969 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:53,975 - INFO - Displaying dietary plan
+2025-04-01 18:29:53,993 - INFO - Displaying fitness plan
+2025-04-01 18:29:54,038 - INFO - Application shutting down
+2025-04-01 18:29:58,612 - INFO - Application starting
+2025-04-01 18:29:58,621 - INFO - Starting application main function
+2025-04-01 18:29:58,639 - INFO - Displaying all user profiles
+2025-04-01 18:29:58,668 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:58,668 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:58,668 - INFO - Displaying dietary plan
+2025-04-01 18:29:58,699 - INFO - Displaying fitness plan
+2025-04-01 18:29:59,025 - INFO - Application starting
+2025-04-01 18:29:59,026 - INFO - Starting application main function
+2025-04-01 18:29:59,040 - INFO - Displaying all user profiles
+2025-04-01 18:29:59,054 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:59,055 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:29:59,062 - INFO - Displaying dietary plan
+2025-04-01 18:29:59,074 - INFO - Displaying fitness plan
+2025-04-01 18:29:59,111 - INFO - Application shutting down
+2025-04-01 18:30:27,891 - INFO - Application starting
+2025-04-01 18:30:27,891 - INFO - Starting application main function
+2025-04-01 18:30:27,895 - INFO - User requested new profile creation
+2025-04-01 18:30:28,076 - INFO - Application starting
+2025-04-01 18:30:28,076 - INFO - Starting application main function
+2025-04-01 18:30:28,086 - INFO - Displaying all user profiles
+2025-04-01 18:30:28,101 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:30:28,184 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-01 18:30:28,187 - INFO - Displaying profile collection form
+2025-04-01 18:30:28,212 - INFO - Application shutting down
+2025-04-02 09:48:02,847 - INFO - Application starting
+2025-04-02 09:48:02,849 - INFO - Starting application main function
+2025-04-02 09:48:02,857 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:02,858 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:02,861 - INFO - Displaying profile collection form
+2025-04-02 09:48:02,894 - INFO - Application shutting down
+2025-04-02 09:48:09,991 - INFO - Application starting
+2025-04-02 09:48:10,000 - INFO - Starting application main function
+2025-04-02 09:48:10,007 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:10,007 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:10,011 - INFO - Displaying profile collection form
+2025-04-02 09:48:10,028 - INFO - Application shutting down
+2025-04-02 09:48:27,142 - INFO - Application starting
+2025-04-02 09:48:27,142 - INFO - Starting application main function
+2025-04-02 09:48:27,153 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:27,155 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:27,155 - INFO - Displaying profile collection form
+2025-04-02 09:48:27,183 - INFO - Application shutting down
+2025-04-02 09:48:33,059 - INFO - Application starting
+2025-04-02 09:48:33,061 - INFO - Starting application main function
+2025-04-02 09:48:33,069 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:33,069 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:33,072 - INFO - Displaying profile collection form
+2025-04-02 09:48:33,089 - INFO - Application shutting down
+2025-04-02 09:48:37,425 - INFO - Application starting
+2025-04-02 09:48:37,448 - INFO - Starting application main function
+2025-04-02 09:48:37,749 - INFO - Application starting
+2025-04-02 09:48:37,752 - INFO - Starting application main function
+2025-04-02 09:48:37,762 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:37,764 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:37,764 - INFO - Displaying profile collection form
+2025-04-02 09:48:37,787 - INFO - Application shutting down
+2025-04-02 09:48:41,233 - INFO - Application starting
+2025-04-02 09:48:41,233 - INFO - Starting application main function
+2025-04-02 09:48:41,246 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:41,247 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:41,251 - INFO - Displaying profile collection form
+2025-04-02 09:48:41,282 - INFO - Application shutting down
+2025-04-02 09:48:51,405 - INFO - Application starting
+2025-04-02 09:48:51,405 - INFO - Starting application main function
+2025-04-02 09:48:51,405 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:51,405 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:51,416 - INFO - Displaying profile collection form
+2025-04-02 09:48:51,444 - INFO - Application shutting down
+2025-04-02 09:48:57,574 - INFO - Application starting
+2025-04-02 09:48:57,574 - INFO - Starting application main function
+2025-04-02 09:48:57,583 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:57,585 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:48:57,588 - INFO - Displaying profile collection form
+2025-04-02 09:48:57,623 - INFO - Application shutting down
+2025-04-02 09:49:00,659 - INFO - Application starting
+2025-04-02 09:49:00,661 - INFO - Starting application main function
+2025-04-02 09:49:00,669 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:49:00,669 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:49:00,669 - INFO - Displaying profile collection form
+2025-04-02 09:49:00,695 - INFO - Application shutting down
+2025-04-02 09:49:10,480 - INFO - Application starting
+2025-04-02 09:49:10,481 - INFO - Starting application main function
+2025-04-02 09:49:10,491 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:49:10,492 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:49:10,494 - INFO - Displaying profile collection form
+2025-04-02 09:49:10,512 - INFO - Application shutting down
+2025-04-02 09:50:58,610 - INFO - Application starting
+2025-04-02 09:50:58,615 - INFO - Starting application main function
+2025-04-02 09:50:58,853 - INFO - Application starting
+2025-04-02 09:50:58,853 - INFO - Starting application main function
+2025-04-02 09:50:58,863 - INFO - Displaying all user profiles
+2025-04-02 09:50:58,887 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:50:59,001 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:50:59,003 - INFO - Displaying profile collection form
+2025-04-02 09:50:59,079 - INFO - Application shutting down
+2025-04-02 09:52:52,375 - INFO - Application starting
+2025-04-02 09:52:52,381 - INFO - Starting application main function
+2025-04-02 09:52:52,398 - INFO - Displaying all user profiles
+2025-04-02 09:52:52,422 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:52:52,422 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:52:52,426 - INFO - Displaying profile collection form
+2025-04-02 09:52:52,459 - INFO - Application shutting down
+2025-04-02 09:53:00,622 - INFO - Application starting
+2025-04-02 09:53:00,622 - INFO - Starting application main function
+2025-04-02 09:53:00,630 - INFO - Displaying all user profiles
+2025-04-02 09:53:00,651 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:00,651 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:00,653 - INFO - Displaying profile collection form
+2025-04-02 09:53:00,674 - INFO - Application shutting down
+2025-04-02 09:53:19,713 - INFO - Application starting
+2025-04-02 09:53:19,713 - INFO - Starting application main function
+2025-04-02 09:53:19,727 - INFO - Displaying all user profiles
+2025-04-02 09:53:19,764 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:19,770 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:19,773 - INFO - Displaying profile collection form
+2025-04-02 09:53:19,819 - INFO - Application shutting down
+2025-04-02 09:53:29,412 - INFO - Application starting
+2025-04-02 09:53:29,416 - INFO - Starting application main function
+2025-04-02 09:53:29,426 - INFO - Displaying all user profiles
+2025-04-02 09:53:29,456 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:29,458 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:29,458 - INFO - Displaying profile collection form
+2025-04-02 09:53:29,481 - INFO - Application shutting down
+2025-04-02 09:53:32,201 - INFO - Application starting
+2025-04-02 09:53:32,201 - INFO - Starting application main function
+2025-04-02 09:53:32,211 - INFO - Displaying all user profiles
+2025-04-02 09:53:32,219 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:32,226 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:32,229 - INFO - Displaying profile collection form
+2025-04-02 09:53:32,252 - INFO - Application shutting down
+2025-04-02 09:53:44,918 - INFO - Application starting
+2025-04-02 09:53:44,918 - INFO - Starting application main function
+2025-04-02 09:53:44,930 - INFO - Displaying all user profiles
+2025-04-02 09:53:44,980 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:45,007 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:53:45,007 - INFO - Displaying profile collection form
+2025-04-02 09:53:45,040 - INFO - Application shutting down
+2025-04-02 09:54:18,102 - INFO - Application starting
+2025-04-02 09:54:18,104 - INFO - Starting application main function
+2025-04-02 09:54:18,112 - INFO - Displaying all user profiles
+2025-04-02 09:54:18,132 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:54:18,134 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:54:18,136 - INFO - Displaying profile collection form
+2025-04-02 09:54:18,166 - INFO - Application shutting down
+2025-04-02 09:54:37,567 - INFO - Application starting
+2025-04-02 09:54:37,569 - INFO - Starting application main function
+2025-04-02 09:54:37,581 - INFO - Displaying all user profiles
+2025-04-02 09:54:37,617 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:54:37,621 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:54:37,625 - INFO - Displaying profile collection form
+2025-04-02 09:54:37,673 - INFO - Application shutting down
+2025-04-02 09:55:08,996 - INFO - Application starting
+2025-04-02 09:55:08,996 - INFO - Starting application main function
+2025-04-02 09:55:09,006 - INFO - Displaying all user profiles
+2025-04-02 09:55:09,030 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:09,032 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:09,032 - INFO - Displaying profile collection form
+2025-04-02 09:55:09,082 - INFO - Application shutting down
+2025-04-02 09:55:17,638 - INFO - Application starting
+2025-04-02 09:55:17,638 - INFO - Starting application main function
+2025-04-02 09:55:17,646 - INFO - Displaying all user profiles
+2025-04-02 09:55:17,661 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:17,661 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:17,661 - INFO - Displaying profile collection form
+2025-04-02 09:55:17,682 - INFO - Application shutting down
+2025-04-02 09:55:42,183 - INFO - Application starting
+2025-04-02 09:55:42,191 - INFO - Starting application main function
+2025-04-02 09:55:42,198 - INFO - Displaying all user profiles
+2025-04-02 09:55:42,224 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:42,224 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:42,227 - INFO - Displaying profile collection form
+2025-04-02 09:55:42,272 - INFO - Application shutting down
+2025-04-02 09:55:49,604 - INFO - Application starting
+2025-04-02 09:55:49,604 - INFO - Starting application main function
+2025-04-02 09:55:49,608 - INFO - Displaying all user profiles
+2025-04-02 09:55:49,623 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:49,623 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:49,623 - INFO - Displaying profile collection form
+2025-04-02 09:55:49,642 - INFO - Application shutting down
+2025-04-02 09:55:57,300 - INFO - Application starting
+2025-04-02 09:55:57,308 - INFO - Starting application main function
+2025-04-02 09:55:57,324 - INFO - Displaying all user profiles
+2025-04-02 09:55:57,342 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:57,350 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:55:57,350 - INFO - Displaying profile collection form
+2025-04-02 09:55:57,391 - INFO - Application shutting down
+2025-04-02 09:56:10,191 - INFO - Application starting
+2025-04-02 09:56:10,191 - INFO - Starting application main function
+2025-04-02 09:56:10,197 - INFO - Displaying all user profiles
+2025-04-02 09:56:10,215 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:10,224 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:10,226 - INFO - Displaying profile collection form
+2025-04-02 09:56:10,253 - INFO - Application shutting down
+2025-04-02 09:56:16,300 - INFO - Application starting
+2025-04-02 09:56:16,300 - INFO - Starting application main function
+2025-04-02 09:56:16,318 - INFO - Displaying all user profiles
+2025-04-02 09:56:16,342 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:16,345 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:16,346 - INFO - Displaying profile collection form
+2025-04-02 09:56:16,380 - INFO - Application shutting down
+2025-04-02 09:56:19,609 - INFO - Application starting
+2025-04-02 09:56:19,609 - INFO - Starting application main function
+2025-04-02 09:56:19,630 - INFO - Displaying all user profiles
+2025-04-02 09:56:19,656 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:19,656 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:19,656 - INFO - Displaying profile collection form
+2025-04-02 09:56:19,695 - INFO - Application shutting down
+2025-04-02 09:56:24,409 - INFO - Application starting
+2025-04-02 09:56:24,414 - INFO - Starting application main function
+2025-04-02 09:56:24,430 - INFO - Displaying all user profiles
+2025-04-02 09:56:24,458 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:24,459 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:24,460 - INFO - Displaying profile collection form
+2025-04-02 09:56:24,514 - INFO - Application shutting down
+2025-04-02 09:56:28,209 - INFO - Application starting
+2025-04-02 09:56:28,209 - INFO - Starting application main function
+2025-04-02 09:56:28,231 - INFO - Displaying all user profiles
+2025-04-02 09:56:28,262 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:28,262 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:56:28,262 - INFO - Displaying profile collection form
+2025-04-02 09:56:28,336 - INFO - User requested plan generation
+2025-04-02 09:56:28,345 - INFO - Creating new user profile
+2025-04-02 09:56:28,364 - INFO - Initializing agents for plan generation
+2025-04-02 09:56:30,527 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 09:56:59,546 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 09:56:59,572 - INFO - AFC remote call 1 is done.
+2025-04-02 09:57:03,227 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 09:57:03,227 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 09:57:23,327 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 09:57:23,343 - INFO - AFC remote call 1 is done.
+2025-04-02 09:57:25,205 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 09:57:25,598 - INFO - Application starting
+2025-04-02 09:57:25,602 - INFO - Starting application main function
+2025-04-02 09:57:25,623 - INFO - Displaying all user profiles
+2025-04-02 09:57:25,682 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:57:25,682 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:57:25,701 - INFO - Displaying dietary plan
+2025-04-02 09:57:25,751 - INFO - Displaying fitness plan
+2025-04-02 09:57:25,817 - INFO - Application shutting down
+2025-04-02 09:58:23,829 - INFO - Application starting
+2025-04-02 09:58:23,830 - INFO - Starting application main function
+2025-04-02 09:58:23,845 - INFO - Displaying all user profiles
+2025-04-02 09:58:23,868 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:23,868 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:23,877 - INFO - Displaying dietary plan
+2025-04-02 09:58:23,886 - INFO - Displaying fitness plan
+2025-04-02 09:58:23,910 - INFO - User question received: hey, what is my Body Mass Index
+2025-04-02 09:58:24,118 - INFO - Application starting
+2025-04-02 09:58:24,119 - INFO - Starting application main function
+2025-04-02 09:58:24,142 - INFO - Displaying all user profiles
+2025-04-02 09:58:24,189 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:24,189 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:24,192 - INFO - Displaying dietary plan
+2025-04-02 09:58:24,233 - INFO - Displaying fitness plan
+2025-04-02 09:58:24,269 - INFO - Initializing agent for response generation
+2025-04-02 09:58:24,355 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 09:58:26,317 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 09:58:32,937 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 09:58:32,943 - INFO - AFC remote call 1 is done.
+2025-04-02 09:58:35,628 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 09:58:35,864 - INFO - Assistant response added to chat history
+2025-04-02 09:58:36,077 - INFO - Application starting
+2025-04-02 09:58:36,077 - INFO - Starting application main function
+2025-04-02 09:58:36,082 - INFO - Displaying all user profiles
+2025-04-02 09:58:36,107 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:36,107 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:36,113 - INFO - Displaying dietary plan
+2025-04-02 09:58:36,125 - INFO - Displaying fitness plan
+2025-04-02 09:58:36,161 - INFO - Application shutting down
+2025-04-02 09:58:53,388 - INFO - Application starting
+2025-04-02 09:58:53,390 - INFO - Starting application main function
+2025-04-02 09:58:53,397 - INFO - Displaying all user profiles
+2025-04-02 09:58:53,422 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:53,423 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:53,423 - INFO - Displaying dietary plan
+2025-04-02 09:58:53,442 - INFO - Displaying fitness plan
+2025-04-02 09:58:53,460 - INFO - User question received: how did you calculate this?
+2025-04-02 09:58:53,603 - INFO - Application starting
+2025-04-02 09:58:53,603 - INFO - Starting application main function
+2025-04-02 09:58:53,611 - INFO - Displaying all user profiles
+2025-04-02 09:58:53,647 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:53,734 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:58:53,743 - INFO - Displaying dietary plan
+2025-04-02 09:58:53,783 - INFO - Displaying fitness plan
+2025-04-02 09:58:53,810 - INFO - Initializing agent for response generation
+2025-04-02 09:58:53,811 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 09:58:55,445 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 09:59:02,634 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 09:59:02,639 - INFO - AFC remote call 1 is done.
+2025-04-02 09:59:04,498 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 09:59:04,788 - INFO - Assistant response added to chat history
+2025-04-02 09:59:04,953 - INFO - Application starting
+2025-04-02 09:59:04,953 - INFO - Starting application main function
+2025-04-02 09:59:04,960 - INFO - Displaying all user profiles
+2025-04-02 09:59:04,992 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:04,994 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:04,999 - INFO - Displaying dietary plan
+2025-04-02 09:59:05,019 - INFO - Displaying fitness plan
+2025-04-02 09:59:05,071 - INFO - Application shutting down
+2025-04-02 09:59:35,405 - INFO - Application starting
+2025-04-02 09:59:35,405 - INFO - Starting application main function
+2025-04-02 09:59:35,413 - INFO - Displaying all user profiles
+2025-04-02 09:59:35,444 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:35,444 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:35,451 - INFO - Displaying dietary plan
+2025-04-02 09:59:35,464 - INFO - Displaying fitness plan
+2025-04-02 09:59:35,492 - INFO - User question received: oh fair enough, thanks dawg
+2025-04-02 09:59:35,658 - INFO - Application starting
+2025-04-02 09:59:35,658 - INFO - Starting application main function
+2025-04-02 09:59:35,682 - INFO - Displaying all user profiles
+2025-04-02 09:59:35,727 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:35,762 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:35,767 - INFO - Displaying dietary plan
+2025-04-02 09:59:35,788 - INFO - Displaying fitness plan
+2025-04-02 09:59:35,843 - INFO - Initializing agent for response generation
+2025-04-02 09:59:35,845 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 09:59:37,692 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 09:59:41,750 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 09:59:41,750 - INFO - AFC remote call 1 is done.
+2025-04-02 09:59:43,855 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 09:59:44,098 - INFO - Assistant response added to chat history
+2025-04-02 09:59:44,252 - INFO - Application starting
+2025-04-02 09:59:44,252 - INFO - Starting application main function
+2025-04-02 09:59:44,252 - INFO - Displaying all user profiles
+2025-04-02 09:59:44,285 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:44,285 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 09:59:44,285 - INFO - Displaying dietary plan
+2025-04-02 09:59:44,301 - INFO - Displaying fitness plan
+2025-04-02 09:59:44,346 - INFO - Application shutting down
+2025-04-02 10:02:15,926 - INFO - Application starting
+2025-04-02 10:02:15,929 - INFO - Starting application main function
+2025-04-02 10:02:15,935 - INFO - Displaying all user profiles
+2025-04-02 10:02:15,962 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:15,964 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:15,966 - INFO - Displaying dietary plan
+2025-04-02 10:02:15,977 - INFO - Displaying fitness plan
+2025-04-02 10:02:16,007 - INFO - User question received: okay sure
+2025-04-02 10:02:16,178 - INFO - Application starting
+2025-04-02 10:02:16,181 - INFO - Starting application main function
+2025-04-02 10:02:16,194 - INFO - Displaying all user profiles
+2025-04-02 10:02:16,218 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:16,226 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:16,234 - INFO - Displaying dietary plan
+2025-04-02 10:02:16,253 - INFO - Displaying fitness plan
+2025-04-02 10:02:16,296 - INFO - Initializing agent for response generation
+2025-04-02 10:02:16,298 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 10:02:18,265 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 10:02:24,164 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 10:02:24,166 - INFO - AFC remote call 1 is done.
+2025-04-02 10:02:26,132 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 10:02:26,295 - INFO - Assistant response added to chat history
+2025-04-02 10:02:26,462 - INFO - Application starting
+2025-04-02 10:02:26,462 - INFO - Starting application main function
+2025-04-02 10:02:26,467 - INFO - Displaying all user profiles
+2025-04-02 10:02:26,501 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:26,503 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:26,507 - INFO - Displaying dietary plan
+2025-04-02 10:02:26,522 - INFO - Displaying fitness plan
+2025-04-02 10:02:26,573 - INFO - Application shutting down
+2025-04-02 10:02:56,604 - INFO - Application starting
+2025-04-02 10:02:56,604 - INFO - Starting application main function
+2025-04-02 10:02:56,629 - INFO - Displaying all user profiles
+2025-04-02 10:02:56,662 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:56,662 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:02:56,668 - INFO - Displaying dietary plan
+2025-04-02 10:02:56,687 - INFO - Displaying fitness plan
+2025-04-02 10:02:56,748 - INFO - Application shutting down
+2025-04-02 10:03:25,624 - INFO - Application starting
+2025-04-02 10:03:25,627 - INFO - Starting application main function
+2025-04-02 10:03:25,638 - INFO - Displaying all user profiles
+2025-04-02 10:03:25,674 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:25,676 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:25,684 - INFO - Displaying dietary plan
+2025-04-02 10:03:25,694 - INFO - Displaying fitness plan
+2025-04-02 10:03:25,773 - INFO - User question received: why did you recommend High Calorie & Nutrient Density
+2025-04-02 10:03:25,966 - INFO - Application starting
+2025-04-02 10:03:25,966 - INFO - Starting application main function
+2025-04-02 10:03:25,982 - INFO - Displaying all user profiles
+2025-04-02 10:03:26,007 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:26,009 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:26,013 - INFO - Displaying dietary plan
+2025-04-02 10:03:26,018 - INFO - Displaying fitness plan
+2025-04-02 10:03:26,070 - INFO - Initializing agent for response generation
+2025-04-02 10:03:26,070 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 10:03:27,909 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 10:03:38,394 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 10:03:38,398 - INFO - AFC remote call 1 is done.
+2025-04-02 10:03:40,364 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 10:03:40,364 - ERROR - Error during agent.run or streaming simulation: 'float' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\Machine Learning\Agentic AI\ai-competitor-analysis\src\main2.py", line 473, in stream_response
+    for i in range(0, len(content), chunk_size):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+2025-04-02 10:03:40,364 - INFO - Assistant response added to chat history
+2025-04-02 10:03:40,653 - INFO - Application starting
+2025-04-02 10:03:40,656 - INFO - Starting application main function
+2025-04-02 10:03:40,684 - INFO - Displaying all user profiles
+2025-04-02 10:03:40,732 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:40,732 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:40,743 - INFO - Displaying dietary plan
+2025-04-02 10:03:40,763 - INFO - Displaying fitness plan
+2025-04-02 10:03:40,805 - INFO - Application shutting down
+2025-04-02 10:03:49,632 - INFO - Application starting
+2025-04-02 10:03:49,634 - INFO - Starting application main function
+2025-04-02 10:03:49,648 - INFO - Displaying all user profiles
+2025-04-02 10:03:49,753 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:49,820 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:49,829 - INFO - Displaying dietary plan
+2025-04-02 10:03:49,862 - INFO - Displaying fitness plan
+2025-04-02 10:03:49,937 - INFO - Application shutting down
+2025-04-02 10:03:53,480 - INFO - Application starting
+2025-04-02 10:03:53,480 - INFO - Starting application main function
+2025-04-02 10:03:53,498 - INFO - Displaying all user profiles
+2025-04-02 10:03:53,520 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:53,522 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:53,526 - INFO - Displaying dietary plan
+2025-04-02 10:03:53,542 - INFO - Displaying fitness plan
+2025-04-02 10:03:53,581 - INFO - User question received: why did you recommend High Calorie & Nutrient Density
+2025-04-02 10:03:53,756 - INFO - Application starting
+2025-04-02 10:03:53,756 - INFO - Starting application main function
+2025-04-02 10:03:53,772 - INFO - Displaying all user profiles
+2025-04-02 10:03:53,792 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:53,792 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:03:53,798 - INFO - Displaying dietary plan
+2025-04-02 10:03:53,812 - INFO - Displaying fitness plan
+2025-04-02 10:03:53,850 - INFO - Initializing agent for response generation
+2025-04-02 10:03:53,852 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 10:03:56,009 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 10:04:06,640 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 10:04:06,644 - INFO - AFC remote call 1 is done.
+2025-04-02 10:04:08,359 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 10:04:10,086 - INFO - Assistant response added to chat history
+2025-04-02 10:04:10,283 - INFO - Application starting
+2025-04-02 10:04:10,283 - INFO - Starting application main function
+2025-04-02 10:04:10,293 - INFO - Displaying all user profiles
+2025-04-02 10:04:10,316 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:04:10,322 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:04:10,325 - INFO - Displaying dietary plan
+2025-04-02 10:04:10,341 - INFO - Displaying fitness plan
+2025-04-02 10:04:10,405 - INFO - Application shutting down
+2025-04-02 10:05:28,959 - INFO - Application starting
+2025-04-02 10:05:28,961 - INFO - Starting application main function
+2025-04-02 10:05:28,976 - INFO - Displaying all user profiles
+2025-04-02 10:05:28,999 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:05:29,002 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:05:29,006 - INFO - Displaying dietary plan
+2025-04-02 10:05:29,024 - INFO - Displaying fitness plan
+2025-04-02 10:05:29,107 - INFO - Application shutting down
+2025-04-02 10:07:12,630 - INFO - Application starting
+2025-04-02 10:07:12,630 - INFO - Starting application main function
+2025-04-02 10:07:12,630 - INFO - Displaying all user profiles
+2025-04-02 10:07:12,669 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:12,671 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:12,675 - INFO - Displaying dietary plan
+2025-04-02 10:07:12,691 - INFO - Displaying fitness plan
+2025-04-02 10:07:12,795 - INFO - User question received: oh i see now
+2025-04-02 10:07:13,003 - INFO - Application starting
+2025-04-02 10:07:13,006 - INFO - Starting application main function
+2025-04-02 10:07:13,028 - INFO - Displaying all user profiles
+2025-04-02 10:07:13,071 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:13,073 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:13,077 - INFO - Displaying dietary plan
+2025-04-02 10:07:13,182 - INFO - Displaying fitness plan
+2025-04-02 10:07:13,250 - INFO - Initializing agent for response generation
+2025-04-02 10:07:13,252 - INFO - Generating response using agent.run and simulating stream
+2025-04-02 10:07:15,035 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-02 10:07:19,376 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-02 10:07:19,380 - INFO - AFC remote call 1 is done.
+2025-04-02 10:07:22,500 - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-02 10:07:22,912 - INFO - Assistant response added to chat history
+2025-04-02 10:07:23,118 - INFO - Application starting
+2025-04-02 10:07:23,118 - INFO - Starting application main function
+2025-04-02 10:07:23,134 - INFO - Displaying all user profiles
+2025-04-02 10:07:23,171 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:23,171 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:23,171 - INFO - Displaying dietary plan
+2025-04-02 10:07:23,204 - INFO - Displaying fitness plan
+2025-04-02 10:07:23,278 - INFO - Application shutting down
+2025-04-02 10:07:52,172 - INFO - Application starting
+2025-04-02 10:07:52,172 - INFO - Starting application main function
+2025-04-02 10:07:52,181 - INFO - Displaying all user profiles
+2025-04-02 10:07:52,293 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:52,295 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:07:52,301 - INFO - Displaying dietary plan
+2025-04-02 10:07:52,333 - INFO - Displaying fitness plan
+2025-04-02 10:07:52,381 - INFO - Application shutting down
+2025-04-02 10:08:23,083 - INFO - Application starting
+2025-04-02 10:08:23,087 - INFO - Starting application main function
+2025-04-02 10:08:23,105 - INFO - Displaying all user profiles
+2025-04-02 10:08:23,170 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:08:23,183 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:08:23,205 - INFO - Displaying dietary plan
+2025-04-02 10:08:23,228 - INFO - Displaying fitness plan
+2025-04-02 10:08:23,308 - INFO - Application shutting down
+2025-04-02 10:13:31,894 - INFO - Application starting
+2025-04-02 10:13:31,897 - INFO - Starting application main function
+2025-04-02 10:13:31,912 - INFO - Displaying all user profiles
+2025-04-02 10:13:31,937 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:13:31,937 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:13:31,944 - INFO - Displaying dietary plan
+2025-04-02 10:13:31,962 - INFO - Displaying fitness plan
+2025-04-02 10:13:32,030 - INFO - Application shutting down
+2025-04-02 10:13:47,111 - INFO - Application starting
+2025-04-02 10:13:47,111 - INFO - Starting application main function
+2025-04-02 10:13:47,133 - INFO - Displaying all user profiles
+2025-04-02 10:13:47,168 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:13:47,168 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:13:47,176 - INFO - Displaying dietary plan
+2025-04-02 10:13:47,198 - INFO - Displaying fitness plan
+2025-04-02 10:13:47,283 - INFO - Application shutting down
+2025-04-02 10:16:11,211 - __main__ - INFO - Loaded GOOGLE_API_KEY: AI****Y8
+2025-04-02 10:16:11,211 - __main__ - INFO - Loaded GROQ_API_KEY: gs****Vn
+2025-04-02 10:17:05,620 - INFO - Loaded GOOGLE_API_KEY: AI****Y8
+2025-04-02 10:17:05,622 - INFO - Loaded GROQ_API_KEY: gs****Vn
+2025-04-02 10:17:05,632 - INFO - Application starting
+2025-04-02 10:17:05,632 - INFO - Starting application main function
+2025-04-02 10:17:05,645 - INFO - Displaying all user profiles
+2025-04-02 10:17:05,676 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:17:05,678 - INFO - Initializing model: gemini-2.5-pro-exp-03-25
+2025-04-02 10:17:05,682 - INFO - Displaying dietary plan
+2025-04-02 10:17:05,700 - INFO - Displaying fitness plan
+2025-04-02 10:17:05,776 - INFO - Application shutting down
